@@ -7,9 +7,12 @@ PyTorch implementation of the paper ["Data-Driven Filter Design in FBP: Transfor
 
 ## Requirements
 
-The code is developed using Python 3.11 and PyTorch 2.0.1.
-
-
+The code is developed using Python 3.11 and PyTorch 2.0.1. 
+```bash
+conda env create -f environment.yml
+conda activate tfr
+```
+Then you need to install [PYRO-NN](pyronn).
 
 ## Data
 Low-dose CT data can be found [here](https://www.nature.com/articles/s41597-021-00893-z#code-availability).

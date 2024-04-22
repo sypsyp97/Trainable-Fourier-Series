@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e57baa1e-74f1-45a3-b341-1be1f08998e6" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Trainable-Fourier-Series.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/Installation_HPC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/FBP.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/example_cone_3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/example_fan_2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/example_fan_2d_shortscan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/example_parallel_2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/iterative_reconstruction_parallel.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/examples/parallel_2D_example.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyproject.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/helper_headers/helper_eigen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/helper_headers/helper_geometry_cpu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/helper_headers/helper_geometry_gpu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/helper_headers/helper_grid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/helper_headers/helper_math.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/cone_backprojector_3D_CudaKernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/cone_backprojector_3D_CudaKernel_hardware_interp.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/cone_projector_3D_CudaKernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/cone_projector_3D_CudaKernel_hardware_interp.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/fan_backprojector_2D_CudaKernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/fan_projector_2D_CudaKernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/par_backprojector_2D_CudaKernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/kernels/par_projector_2D_CudaKernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/cone_backprojector_3D_OPKernel.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/cone_projector_3D_OPKernel.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/fan_backprojector_2D_OPKernel.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/fan_projector_2D_OPKernel.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/par_backprojector_2D_OPKernel.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/par_projector_2D_OPKernel.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/cores/torch_ops/pyronn_torch_layers.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/geometry/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/geometry/geometry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/filters/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/filters/weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/phantoms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/phantoms/primitives_2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/phantoms/primitives_3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/phantoms/shepp_logan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/trajectories/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/trajectories/arbitrary_trajectory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/helpers/trajectories/circular_trajectory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/layers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/layers/backprojection_2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/layers/backprojection_3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/layers/projection_2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/layers/projection_3d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/pyronn/ct_reconstruction/layers/reconstruction.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/wheel/pyronn-0.3.1-cp310-cp310-win_amd64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/wheel/pyronn-0.3.1-cp311-cp311-linux_x86_64.whl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyronn/wheel/pyronn-0.3.1-cp311-cp311-win_amd64.whl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sypsyp97&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sypsyp97/Trainable-Fourier-Series.git&quot;,
+    &quot;accountId&quot;: &quot;062c361f-1dcc-4d05-959d-a22e080ae5f9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fK84CxWMIUZmBk2plRonbYXu7X" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PycharmProjects/Trainable-Fourier-Series&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Trainable-Fourier-Series" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Trainable-Fourier-Series" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e57baa1e-74f1-45a3-b341-1be1f08998e6" name="Changes" comment="" />
+      <created>1713538215350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713538215350</updated>
+      <workItem from="1713538219624" duration="2405000" />
+      <workItem from="1713773380474" duration="741000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1713540029804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713540029804</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1713540049511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713540049511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Trainable_Fourier_Series$main.coverage" NAME="main Coverage Results" MODIFIED="1713539401134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

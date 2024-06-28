@@ -86,7 +86,7 @@ For a hands-on installation:
    install C++ Compiler:
 
    ```bash
-   conda install gxx_linux-64
+   conda install conda-forge::gxx_linux-64
    ```
 2. **Package Build**:
 

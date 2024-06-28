@@ -2,7 +2,7 @@
 requires = ["setuptools",
     "ninja",
     "--extra-index-url https://download.pytorch.org/whl/cu118",
-    "torch==2.0.0+cu118"] # zipfile.BadZipFile: Bad CRC-32 for file 'torch/lib/cudnn_cnn_infer64_8.dll' error happens if cache was used, can be solved by modify pip configuration file.
+    "torch==2.0.1+cu118"] # zipfile.BadZipFile: Bad CRC-32 for file 'torch/lib/cudnn_cnn_infer64_8.dll' error happens if cache was used, can be solved by modify pip configuration file.
 build-backend = "setuptools.build_meta"
 
 [project]

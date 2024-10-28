@@ -39,7 +39,7 @@ If you find PYRO-NN beneficial for your research or applications, please conside
    and avoid conflicts.
 
    ```bash
-   conda create --name your_env_name python=3.11
+   conda create --name your_env_name python=3.12
    ```
 
 3. Activate the Virtual Environment:
@@ -63,11 +63,13 @@ If you find PYRO-NN beneficial for your research or applications, please conside
    ```
 
 6. Install Pyronn:
-   Finally, install the `pyronn` library using the provided [wheel file](wheel/pyronn-0.3.1-cp311-cp311-win_amd64.whl):
+   Finally, install the `pyronn` library using the provided [wheel file](wheel/pyronn-0.3.2-cp312-cuda118-torch2.5.0-win_amd64.whl):
 
    ```bash
-   pip install pyronn-0.3.1-cp311-cp311-win_amd64.whl
+   pip install pyronn-0.3.2-cp312-cuda118-torch2.5.0-win_amd64.whl
    ```
+
+   For Linux users, the wheel file is available [here](wheel\pyronn-0.3.1-cp311-cp311-linux_x86_64.whl). Python 3.11, cuda 11.8 and torch 2.1.0 are the supported versions.
 
 ### Manual Installation
 
@@ -82,8 +84,8 @@ For a hands-on installation:
 #### Steps:
 
 
-1. **Version Check**: Ensure the torch version in `pyproject.toml` aligns with your environment to avoid DLL errors and
-   install C++ Compiler:
+1. **Version Check**: 
+Ensure the torch version in `pyproject.toml` aligns with your environment to avoid DLL errors and install C++ Compiler on Linux:
 
    ```bash
    conda install conda-forge::gxx_linux-64
@@ -94,7 +96,7 @@ For a hands-on installation:
    python -m build
    ```
 
-3. **Wheel File**: Post-build, locate the wheel file in the `wheel` directory.
+3. **Wheel File**: Post-build, locate the wheel file in the `dist` directory.
 
 > **Tip**: Adjust `pyproject.toml` if you need a different torch version.
 

@@ -2,20 +2,32 @@
 requires = ["setuptools",
     "ninja",
     "--extra-index-url https://download.pytorch.org/whl/cu118",
-    "torch==2.0.1+cu118"] # zipfile.BadZipFile: Bad CRC-32 for file 'torch/lib/cudnn_cnn_infer64_8.dll' error happens if cache was used, can be solved by modify pip configuration file.
+    "torch==2.5.0+cu118"] # zipfile.BadZipFile: Bad CRC-32 for file 'torch/lib/cudnn_cnn_infer64_8.dll' error happens if cache was used, can be solved by modify pip configuration file.
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyronn"
-version = '0.3.1'
-authors = [{ name = "Christopher Syben", email = "christopher.syben@fau.de" }]
+version = '0.3.2'
+authors = [
+    { name = "Christopher Syben", email = "christopher.syben@fau.de" }
+]
+maintainers = [
+    { name = "Yipeng Sun", email = "yipeng.sun@fau.de" }
+]
 description = "PYRO-NN is the high level Python API to the PYRO-NN-Layers known operators."
 readme = "README.md"
-requires-python = ">=3.6"
+requires-python = ">=3.9"
 classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 
 dependencies = [
@@ -26,7 +38,7 @@ dependencies = [
 homepage = "https://github.com/csyben/PYRO-NN"
 
 [tool.setuptools.packages.find]
-include = ['pyronn*', 'pyronn_examples*']
+include = ['pyronn*']
 
 [project.optional-dependencies]
 tools = [

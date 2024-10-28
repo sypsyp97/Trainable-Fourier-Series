@@ -31,7 +31,7 @@
    You can install PyTorch, torchvision, and torchaudio for the specified CUDA version:
 
    ```bash
-   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+   pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
    ```
 
 6. **Install Pyro-NN**:
@@ -69,7 +69,7 @@
    You can install PyTorch, torchvision, and torchaudio for the specified CUDA version:
 
    ```bash
-   conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+   pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
    ```
 5. **Build Package**: Install the build package.
    ```bash

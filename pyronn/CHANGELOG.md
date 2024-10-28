@@ -1,5 +1,9 @@
 ## 0.3.1
 
+* [x] support cuda 11.8 and pytorch 2.5.0(Yipeng)
+
+## 0.3.1
+
 * [x] support cuda 11.8 and pytorch 2.0.1(Yipeng)
 * [x] getter for detector_origin in geometry(Yipeng)
 * [x] update the examples(Yipeng)

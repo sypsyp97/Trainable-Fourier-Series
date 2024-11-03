@@ -59,17 +59,27 @@ If you find PYRO-NN beneficial for your research or applications, please conside
    You can install PyTorch, torchvision, and torchaudio for the specified CUDA version:
 
    ```bash
-   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+   pip install torch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 --index-url https://download.pytorch.org/whl/cu118
    ```
 
 6. Install Pyronn:
    Finally, install the `pyronn` library using the provided [wheel file](wheel/pyronn-0.3.2-cp312-cuda118-torch2.5.0-win_amd64.whl):
 
    ```bash
-   pip install pyronn-0.3.2-cp312-cuda118-torch2.5.0-win_amd64.whl
+   pip install pyronn-0.3.2-cp312-cp312-win_amd64.whl
    ```
 
    For Linux users, the wheel file is available [here](wheel\pyronn-0.3.1-cp311-cp311-linux_x86_64.whl). Python 3.11, cuda 11.8 and torch 2.1.0 are the supported versions.
+
+
+### Automated Installation (Windows)
+
+For convenience, an automated installation script `install_pyronn.bat` is provided in the pyronn directory. This script will:
+
+- Create a Conda environment with python=3.12
+- Install CUDA toolkit 11.8.0
+- Install PyTorch 2.5.0 and dependencies
+- Install PYRO-NN from the provided wheel file
 
 ### Manual Installation
 

@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2401.16039-b31b1b.svg)](https://arxiv.org/abs/2401.16039)
 
 
-PyTorch implementation of the paper ["Data-Driven Filter Design in FBP: Transforming CT Reconstruction with Trainable Fourier Series"](https://arxiv.org/abs/2401.16039). This paper is accepted by the 8th International Conference on Image Formation in X-Ray Computed Tomography, Bamberg, Germany.
+PyTorch implementation of the paper ["Data-Driven Filter Design in FBP: Transforming CT Reconstruction with Trainable Fourier Series"](https://arxiv.org/abs/2401.16039). This paper is accepted by the **8th International Conference on Image Formation in X-Ray Computed Tomography, Bamberg, Germany**.
 
 ## Requirements
 

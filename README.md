@@ -7,7 +7,7 @@ PyTorch implementation of the paper ["Data-Driven Filter Design in FBP: Transfor
 
 ## Requirements
 
-The code is developed using Python 3.12 and PyTorch 2.5.0. 
+The code is developed using Python 3.11 and PyTorch 2.0.0. 
 Installation guide can be found in [pyronn](pyronn).
 
 ## Data

@@ -21,7 +21,7 @@ python main.py
 ```
 
 ## Citation
-
+Please cite the following paper and star this project if you use this repository in your research. Thank you!
 ```
 @article{sun2024data,
   title={Data-Driven Filter Design in FBP: Transforming CT Reconstruction with Trainable Fourier Series},

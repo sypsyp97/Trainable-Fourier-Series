@@ -9,9 +9,6 @@ in [PYRO-NN-Layers](https://github.com/csyben/PYRO-NN-Layers).
 PYRO-NN is designed to bring cutting-edge reconstruction techniques to neural networks. The open-access paper detailing
 its capabilities and design can be accessed [here](https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.13753).
 
-**Dependencies**: PYRO-NN relies on the `pyronn_layers`. These are now available through pip. For those interested in
-the source code, it's available at [PYRO-NN-Layers](https://github.com/csyben/PYRO-NN-Layers).
-
 ## References
 
 If you find PYRO-NN beneficial for your research or applications, please consider citing our work:

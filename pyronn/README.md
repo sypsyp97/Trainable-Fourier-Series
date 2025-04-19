@@ -66,7 +66,8 @@ If you find PYRO-NN beneficial for your research or applications, please conside
    pip install pyronn-0.3.2-cp312-cp312-win_amd64.whl
    ```
 
-   For Linux users, the wheel file is available [here](wheel\pyronn-0.3.1-cp311-cp311-linux_x86_64.whl). Python 3.11, cuda 11.8 and torch 2.1.0 are the supported versions.
+   For Linux users, the wheel file is available [here](wheel\pyronn-0.3.2-cp311-cp311-linux_x86_64.whl). Python 3.11, cuda 11.8 and torch 2.1.1 are the supported versions.
+   For unknown reasons, you need then downgrade to numpy==1.26.4
 
 
 ### Automated Installation (Windows)
